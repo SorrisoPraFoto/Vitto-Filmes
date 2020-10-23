@@ -33,13 +33,14 @@ body {
 	width: 100%;
 	background-image: url("FundoFinalEscuro.png");
 	background-size: 850px;
+	z-index: 0;
 }
 
 #pistas2{
 	margin-top: 5px;
 	animation: typewriter 2s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 2s;
+    animation-delay: 4s;
     white-space: nowrap;
     overflow: hidden;
     font-size: 80px;
@@ -47,17 +48,16 @@ body {
 
 #pistas{
 	margin-bottom: 5px;
-  	animation: typewriter 2s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+  	animation-name: fadeIn;
+  	animation-duration: 2s;
   	white-space: nowrap;
     overflow: hidden;
     font-size: 160px;
 }
 
 #botaoIniciar:hover {
-	animation-fill-mode: forwards;
-	animation-name: cinzaFundo;
-	animation-duration: 2s;
+	background-color: #232123;
+	opacity: 0.9;
 }
 
 #botaoIniciar {
@@ -71,41 +71,7 @@ body {
 	border-radius: 5px;
 	border: 2px solid #c82424;
 	background-color: transparent;
-}
-
-.headerDireita {
-	float: right;
-}
-
-.headerDireita a:hover {
-	background-color: #dd1c1c;
-	animation-name: fadeIn;
-	animation-duration: 2s;
-}
-
-.headerDireita a {
-	float: left;
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	font-size: 18px;
-	font-family: Sansation;
-	padding: 12px;
-	margin-top: 28px;
-	margin-right: 10px;
-	line-height: 25px;
-}
-
-.espacoPesquisa {
-	margin: 250px;
-	margin-top: 140px;
-	margin-bottom: 100px;
-	padding-bottom: 200px;
-}
-
-.espacoPesquisa p {
-	font-family: Walkway;
-	color: white;
+	transition: background-color 0.7s ease;
 }
 
 #logoImg {
@@ -119,4 +85,83 @@ body {
 	display: block;
 	background-color: black;
 	opacity: 0.8;
+	z-index: 17082002;
+}
+
+.headerDireita {
+	float: right;
+}
+
+.headerDireita a:hover {
+	background-color: #dd1c1c;
+}
+
+.headerDireita a {
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Sansation;
+	padding: 12px;
+	margin-top: 28px;
+	margin-right: 10px;
+	line-height: 25px;
+	transition: background-color 0.8s ease;
+}
+
+.espacoPesquisa {
+	margin: 250px;
+	margin-top: 140px;
+	margin-bottom: 100px;
+	padding-bottom: 400px;
+}
+
+.espacoPesquisa p {
+	font-family: Walkway;
+	color: white;
+}
+
+.descricao {
+	background-color: white;
+	width: 40%;
+	position: relative;
+	z-index: 2;
+	padding: 30%;
+	padding-bottom: 38%;
+	padding-top: 10%;
+}
+
+.descricao #tituloDescricao{
+	font-family: Walkway;
+	font-size: 100px;
+	font-weight: normal;
+	position: absolute;
+	bottom: 62%;
+	right: 50%;
+}
+
+.descricao #segundoDescricao{
+	font-family: Walkway;
+	font-size: 100px;
+	font-weight: normal;
+	position: absolute;
+	bottom: 25%;
+	right: 45%;
+}
+
+.descricao #p1 {
+	font-family: Walkway;
+	font-size: 25px;
+	position: absolute;
+	top: 30%;
+	left: 5%;
+}
+
+.descricao #p2 {
+	font-family: Walkway;
+	font-size: 25px;
+	position: absolute;
+	top: 68%;
+	left: 5%;
 }
