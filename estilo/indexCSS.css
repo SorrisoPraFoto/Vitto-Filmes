@@ -36,10 +36,10 @@
 	animation-duration: 10s;
 }
 
-#header {
+.header {
 	position: fixed;
 	width: 100%;
 	display: block;
 	background-color: black;
-	opacity: 0.9;
+	opacity: 0.8;
 }
