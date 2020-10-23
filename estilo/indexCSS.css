@@ -3,6 +3,11 @@
 	src: url("Sansation.ttf");
 }
 
+@font-face {
+	font-family: "Walkway";
+	src: url("Walkway.ttf");
+}
+
 @keyframes cinzaFundo {
 	0% {background-color: transparent;}
 	100% {background-color: #232123; opacity: 0.8;}
@@ -97,7 +102,7 @@ body {
 }
 
 .espacoPesquisa p {
-	font-family: Sansation;
+	font-family: Walkway;
 	font-size: 80px;
 	color: white;
 }
