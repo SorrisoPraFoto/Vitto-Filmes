@@ -28,6 +28,10 @@
   to{border-right-color: transparent;}
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
 	width: 100%;
@@ -84,8 +88,8 @@ body {
 	position: fixed;
 	width: 100%;
 	display: block;
-	background-color: black;
-	opacity: 0.8;
+	background-color: #161616;
+	opacity: 0.98;
 	z-index: 17082002;
 }
 
@@ -129,7 +133,7 @@ body {
 	position: relative;
 	z-index: 2;
 	padding: 30%;
-	padding-bottom: 38%;
+	padding-bottom: 31%;
 	padding-top: 10%;
 }
 
