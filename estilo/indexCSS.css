@@ -151,7 +151,7 @@ body {
 	font-size: 100px;
 	font-weight: normal;
 	position: absolute;
-	bottom: 25%;
+	bottom: 15%;
 	right: 45%;
 }
 
@@ -159,7 +159,7 @@ body {
 	font-family: Walkway;
 	font-size: 25px;
 	position: absolute;
-	top: 30%;
+	top: 25%;
 	left: 5%;
 }
 
@@ -167,6 +167,6 @@ body {
 	font-family: Walkway;
 	font-size: 25px;
 	position: absolute;
-	top: 68%;
+	top: 74%;
 	left: 5%;
 }
