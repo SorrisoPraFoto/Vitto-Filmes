@@ -3,9 +3,66 @@
 	src: url("Sansation.ttf");
 }
 
+@keyframes cinzaFundo {
+	0% {background-color: transparent;}
+	100% {background-color: #232123; opacity: 0.8;}
+}
+
 @keyframes fadeIn {
 	0% {opacity: 0.0;}
 	100% {opacity: 0.8;}
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 110%;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	background-image: url("fundo.png");
+}
+
+#pistas2{
+	margin-top: 5px;
+	animation: typewriter 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+    animation-delay: 2s;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#pistas{
+	margin-bottom: 5px;
+  	animation: typewriter 2s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+  	white-space: nowrap;
+    overflow: hidden;
+}
+
+#botaoIniciar:hover {
+	animation-fill-mode: forwards;
+	animation-name: cinzaFundo;
+	animation-duration: 2s;
+}
+
+#botaoIniciar {
+	text-align: center;
+	position: absolute;
+	left: 37%;
+	padding: 45px 150px;
+	font-family: Sansation;
+	font-size: 35px;
+	color: white;
+	border-radius: 5px;
+	border: 2px solid #c82424;
+	background-color: transparent;
 }
 
 .headerDireita {
@@ -33,8 +90,9 @@
 
 .espacoPesquisa {
 	margin: 250px;
+	margin-top: 140px;
 	margin-bottom: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 }
 
 .espacoPesquisa p {
