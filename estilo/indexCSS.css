@@ -36,7 +36,7 @@
 	animation-duration: 10s;
 }
 
-.header {
+#header {
 	position: fixed;
 	width: 100%;
 	display: block;
