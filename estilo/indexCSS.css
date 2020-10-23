@@ -1,0 +1,45 @@
+@font-face{
+	font-family: "Sansation";
+	src: url("Sansation.ttf");
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0.0;}
+	100% {opacity: 1.0;}
+}
+
+.headerDireita {
+	float: right;
+}
+
+.headerDireita a:hover {
+	background-color: #dd1c1c;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+}
+
+.headerDireita a {
+	float: left;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Sansation;
+	padding: 12px;
+	margin-top: 28px;
+	margin-right: 10px;
+	line-height: 25px;
+}
+
+#logoImg {
+	animation-name: fadeIn;
+	animation-duration: 10s;
+}
+
+#header {
+	position: fixed;
+	width: 100%;
+	display: block;
+	background-color: black;
+	opacity: 0.9;
+}
