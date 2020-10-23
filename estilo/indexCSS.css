@@ -26,7 +26,8 @@
 body {
 	margin: 0;
 	width: 100%;
-	background-image: url("fundo.png");
+	background-image: url("FundoFinalEscuro.png");
+	background-size: 700px;
 }
 
 #pistas2{
