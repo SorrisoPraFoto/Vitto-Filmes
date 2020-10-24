@@ -71,7 +71,7 @@ body {
 	padding: 45px 150px;
 	font-family: Sansation;
 	font-size: 35px;
-	color: white;
+	color: #F4F7F7;
 	border-radius: 5px;
 	border: 2px solid #c82424;
 	background-color: transparent;
@@ -81,6 +81,13 @@ body {
 #logoImg {
 	animation-name: fadeIn;
 	animation-duration: 10s;
+}
+
+#imgGithub {
+	position: absolute;
+	right: 50%;
+	top: 221%;
+	width: 5%;
 }
 
 #header {
@@ -124,17 +131,18 @@ body {
 
 .espacoPesquisa p {
 	font-family: Walkway;
-	color: white;
+	color: #F4F7F7;
 }
 
 .descricao {
-	background-color: white;
+	background-color: #F4F7F7;
 	width: 40%;
 	position: relative;
 	z-index: 2;
 	padding: 30%;
 	padding-bottom: 31%;
 	padding-top: 10%;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 
 .descricao #tituloDescricao{
@@ -152,7 +160,7 @@ body {
 	font-weight: normal;
 	position: absolute;
 	bottom: 15%;
-	right: 45%;
+	right: 44.5%;
 }
 
 .descricao #p1 {
@@ -169,4 +177,9 @@ body {
 	position: absolute;
 	top: 74%;
 	left: 5%;
+}
+
+.rodape {
+	background-color: #161616;
+	padding-bottom: 8%;
 }
