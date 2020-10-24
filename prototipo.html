@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Charset" charset="UTF-8">
 	<link rel="stylesheet" href="estilo\indexCSS.css"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<header id="header">
@@ -14,6 +15,19 @@
 			<a Id="Contato" href="#default">Contato</a>
 		</div>
 	</header>
+
+	<div class="fundo_carregando">
+		<span class="carregando">
+			<img src="estilo\loading.gif">
+		<span class="tela_carregando"></span></span>
+	</div>
+
+	<script>
+		$(window).on("load", function(){
+			$(".fundo_carregando").fadeOut("slow");
+		})
+	</script>
+
 	<div style="width: 100%; display: block; height: 50%;" id="comeco"></div>
 
 	<main class="espacoPesquisa">

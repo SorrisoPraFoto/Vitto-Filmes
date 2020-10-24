@@ -97,7 +97,7 @@ body {
 	display: block;
 	background-color: #161616;
 	opacity: 0.98;
-	z-index: 17082002;
+	z-index: 10;
 }
 
 .headerDireita {
@@ -120,6 +120,25 @@ body {
 	margin-right: 10px;
 	line-height: 25px;
 	transition: background-color 0.8s ease;
+}
+
+.fundo_carregando {
+	width: 100%;
+  	height: 235%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	background-color: #111111;
+  	display:flex;
+  	justify-content: center;
+  	align-items: center;
+  	z-index: 11;
+}
+
+.carregando {
+  display: inline-block;
+  position: relative;
+  bottom: 30%;
 }
 
 .espacoPesquisa {
