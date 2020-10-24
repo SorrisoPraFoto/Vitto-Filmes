@@ -122,25 +122,6 @@ body {
 	transition: background-color 0.8s ease;
 }
 
-.fundo_carregando {
-	width: 100%;
-  	height: 235%;
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	background-color: #111111;
-  	display:flex;
-  	justify-content: center;
-  	align-items: center;
-  	z-index: 11;
-}
-
-.carregando {
-  display: inline-block;
-  position: relative;
-  bottom: 30%;
-}
-
 .espacoPesquisa {
 	margin: 250px;
 	margin-top: 140px;
