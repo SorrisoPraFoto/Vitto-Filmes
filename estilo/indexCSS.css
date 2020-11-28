@@ -8,6 +8,11 @@
 	src: url("Walkway.ttf");
 }
 
+@font-face {
+	font-family: "CG";
+	src: url("CG.otf");
+}
+
 @keyframes cinzaFundo {
 	0% {background-color: transparent;}
 	100% {background-color: #232123; opacity: 0.9;}
@@ -20,7 +25,7 @@
 
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 110%;}
+  to{width: 120vw;}
 }
 
 @keyframes blinkTextCursor{
@@ -35,22 +40,182 @@ html {
 body {
 	margin: 0;
 	width: 100%;
+	background-color: black;
 	background-image: url("FundoFinalEscuro.png");
 	background-size: 850px;
+}
+
+#desenvolvimento {
+	width: 100vw;
+	font-family: CG;
+	text-align: center;
+	color: white;
+	font-size: 300%;
+}
+
+#home:hover{
+	cursor: pointer;
+}
+
+#fundoCard {
+	position: absolute;
+	z-index: 1;
+	top: 50vh;
+	left: -50%;
+	opacity: 0.1;
+	transform: translate(-50%, -50%);
+	border: 3px solid #f8a119;
+	border-radius: 50px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 28%;
+	margin: auto;
+	padding-top: 40vh;
+	padding-bottom: 40vh;
+	box-shadow: 6px 8px 8px;
+}
+
+.tituloFinal {
+	position: absolute;
 	z-index: 0;
+	left: 103vh;
+	top: 15vh;
+	padding: 1vh;
+	padding-top: 0.2vh;
+	padding-bottom: 0.2vh;
+	padding-left: 2vh;
+	background-color: #f8a119;
+}
+
+.tituloFinal h1 {
+	font-family: CG;
+	text-align: center;
+	color: #F7F7F7;
+	font-size: 30px;
+	margin: 10px;
+	margin-left: 5px;
+}
+
+.sinopse {
+	position: absolute;
+	left: 105vh;
+	top: 20vh;
+}
+
+.sinopse p {
+	font-family: Sansation;
+	font-size: 20px;
+	color: #F7F7F7;
+	margin: 5vh;
+}
+
+.nota {
+	position: absolute;
+	left: 150vh;
+	top: 65vh;
+	border: 1px solid #F7F7F7;
+	border-radius: 50%;
+	height: 20vh;
+	width: 20vh;
+}
+
+.nota p {
+	position: relative;
+	font-family: Walkway;
+	font-size: 50px;
+	color: #F7F7F7;
+	text-align: center;
+}
+
+#btnEnviar:hover {
+	background-color: #bb2b2b;
+	opacity: 0.9;
+	transition: background-color 0.7s ease;
+	cursor: pointer;
+}
+
+#fundo {
+	position: absolute;
+	z-index: -100;
+	padding: 50vh;
+	padding-right: 161vh;
+	background-color: #101010;
+	opacity: 0.8;
+}
+
+#tituloPesquisa {
+	position: absolute;
+	width: 100%;
+	font-family: CG;
+	font-size: 15vh;
+	text-align: center;
+	padding-top: 5%;
+	color: white;
+}
+
+#iniciandoBusca {
+	position: absolute;
+	left: 45vh;
+	font-family: CG;
+	font-size: 15vh;
+	text-align: center;
+	padding-top: 5%;
+	color: white;
+}
+
+#sugestoes {
+	display: inline;
+	z-index: 5;
+	font-family: Sansation;
+	text-align: center;
+	font-size: 20px;
+	color: #F4F7F7;
+	position: absolute;
+	top: 66%;
+	left: 12%;
+	width: 160vh;
+}
+
+#txtPesquisa {
+	display: inline;
+	z-index: 5;
+	font-family: CG;
+	font-size: 50px;
+	position: absolute;
+	top: 70%;
+	left: 12%;
+	border: 1px solid #bb2b2b;
+	color: #F4F7F7;
+	background-color: #232123;
+	border-radius: 12px;
+	padding: 1vh;
+	padding-bottom: 2vh;
+	padding-left: 1vh;
+	width: 160vh;
+	height: 10vh;
 }
 
 #pistas2{
+	position: relative;
+	z-index: 2;
+	left: 10vw;
+	max-width: 120vw;
+	display: inline-block;
 	margin-top: 5px;
-	animation: typewriter 2s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 4s;
+	animation-name: fadeIn;
+	animation-duration: 2s;
+    animation-delay: 0.5s;
     white-space: nowrap;
     overflow: hidden;
     font-size: 80px;
 }
 
 #pistas{
+	max-width: 50%;
+	position: relative;
+	z-index: 3;
+	left: 9vw;
+	margin-top: 15vh;
 	margin-bottom: 5px;
   	animation-name: fadeIn;
   	animation-duration: 2s;
@@ -62,12 +227,14 @@ body {
 #botaoIniciar:hover {
 	background-color: #232123;
 	opacity: 0.9;
+	cursor: pointer;
 }
 
 #botaoIniciar {
 	text-align: center;
-	position: absolute;
-	left: 37%;
+	position: relative;
+	z-index: 5;
+	left: 37vw;
 	padding: 45px 150px;
 	font-family: Sansation;
 	font-size: 35px;
@@ -106,6 +273,7 @@ body {
 
 .headerDireita a:hover {
 	background-color: #dd1c1c;
+	cursor: pointer;
 }
 
 .headerDireita a {
@@ -123,10 +291,8 @@ body {
 }
 
 .espacoPesquisa {
-	margin: 250px;
-	margin-top: 140px;
-	margin-bottom: 100px;
-	padding-bottom: 400px;
+	width: 100%;
+	padding-bottom: 100vh;
 }
 
 .espacoPesquisa p {
@@ -136,12 +302,11 @@ body {
 
 .descricao {
 	background-color: #F4F7F7;
-	width: 40%;
 	position: relative;
 	z-index: 2;
 	padding: 30%;
-	padding-bottom: 31%;
-	padding-top: 10%;
+	padding-bottom: 60vh;
+	padding-top: 20vh;
 	box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 
@@ -150,8 +315,8 @@ body {
 	font-size: 100px;
 	font-weight: normal;
 	position: absolute;
-	bottom: 62%;
-	right: 50%;
+	bottom: 54vh;
+	left: 4vw;
 }
 
 .descricao #segundoDescricao{
@@ -159,8 +324,8 @@ body {
 	font-size: 100px;
 	font-weight: normal;
 	position: absolute;
-	bottom: 15%;
-	right: 44.5%;
+	bottom: 15vh;
+	left: 4vw;
 }
 
 .descricao #p1 {
@@ -180,6 +345,43 @@ body {
 }
 
 .rodape {
-	background-color: #161616;
-	padding-bottom: 8%;
+	background: rgb(22,22,22);
+	background: linear-gradient(0deg, rgba(22,22,22,1) 0%, rgba(23,23,23,1) 47%, rgba(25,25,25,1) 100%);
+	padding-bottom: 30vh;
+}
+
+.rodape h3 {
+	position: relative;
+	left: 20vh;
+	top: 8vh;
+	display: inline-block;
+	margin: 0;
+	font-family: CG;
+	font-size: 40px;
+	color: #F7F7F7;
+}
+
+.rodape #email {
+	position: relative;
+	display: inline-block;
+	left: 20vh;
+	top: 4vh;
+	font-family: Sansation;
+	font-size: 15px;
+	color: #F7F7F7;
+}
+
+.rodape #TMDB {
+	position: relative;
+	display: inline-block;
+	top: 33vh;
+	left: 148vh;
+}
+
+.rodape #author {
+	position: relative;
+	color: #ccccce;
+	top: 25vh;
+	text-align: center;
+	font-family: Sansation;
 }
