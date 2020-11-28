@@ -4,12 +4,12 @@ Link do site em funcionamento: https://vitto-filmes.herokuapp.com/
 
 Esse é o meu projeto final para o curso de extensão HackoonSpace na UFSCar de Sorocaba: Vitto!
 
-**Introdução**
+<h1>Introdução</h1>
 
 Um sistema de assistente pessoal que faz recomendação de filmes de acordo com a sugestões de pistas de vontade para assistir, executando uma pesquisa dentro de um banco de dados de mais de 400 mil filmes para encontrar a produção melhor enquadrada as pistas entregues.
 
 
-**O Sistema**
+<h2>O Sistema</h2>
 
 Página da aplicação mostrando o filme com a nota, sinopse e título
 
