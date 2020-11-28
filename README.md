@@ -1,9 +1,3 @@
-Autor: Marcus Vinícius Caruso Leite
-
-Link do site em funcionamento: https://vitto-filmes.herokuapp.com/
-
-Esse é o meu projeto final para o curso de extensão HackoonSpace na UFSCar de Sorocaba: Vitto!
-
 <h1>Introdução</h1>
 
 Um sistema de assistente pessoal que faz recomendação de filmes de acordo com a sugestões de pistas de vontade para assistir, executando uma pesquisa dentro de um banco de dados de mais de 400 mil filmes para encontrar a produção melhor enquadrada as pistas entregues.
@@ -19,8 +13,16 @@ O algoritmo executa um tratamento de textos com espaçamentos, vírgulas e carac
 
 Todo o programa feito em PHP utiliza o cURL como ferramenta e organiza a engine de pesquisa por meio de ID associada a cada espaço preenchido:
 
-    Gênero
-    Tipo
-    Elenco
-    Duração
-    Época
+<ul>
+    <li>Gênero</li>
+    <li>Tipo</li>
+    <li>Elenco</li>
+    <li>Duração</li>
+    <li>Época</li>
+</ul>
+
+<h2>Disposições finais</h2>
+Autor: Marcus Vinícius Caruso Leite<br>
+Link do site em funcionamento: https://vitto-filmes.herokuapp.com/
+
+Esse é o meu projeto final para o curso de extensão HackoonSpace na UFSCar de Sorocaba: Vitto!
