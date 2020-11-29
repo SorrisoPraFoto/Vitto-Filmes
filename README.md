@@ -2,6 +2,10 @@
 
 Um sistema de assistente pessoal que faz recomendação de filmes de acordo com a sugestões de pistas de vontade para assistir, executando uma pesquisa dentro de um banco de dados de mais de 400 mil filmes para encontrar a produção melhor enquadrada as pistas entregues.
 
+<p align="center">
+<img src="https://i.imgur.com/Lh8uPYU.png"></img>
+</p>
+
 
 <h2>O Sistema</h2>
 
