@@ -43,6 +43,7 @@ body {
 	background-color: black;
 	background-image: url("FundoFinalEscuro.png");
 	background-size: 850px;
+	overflow-x: hidden;
 }
 
 #desenvolvimento {
