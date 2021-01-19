@@ -12,7 +12,7 @@ A The Movie Database é uma comunidade aberta feita para reunir diversos dados s
 
 <img src="https://i.imgur.com/3yahHHq.png"></img>
 
-<h3>O Sistema</h3>
+<h2>O Sistema</h2>
 
 Página da aplicação mostrando o filme com a nota, sinopse e título
 
