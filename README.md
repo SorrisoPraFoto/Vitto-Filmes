@@ -6,6 +6,11 @@ Um sistema de assistente pessoal que faz recomendação de filmes de acordo com 
 <img src="https://i.imgur.com/Lh8uPYU.png"></img>
 </p>
 
+<h2>A TMDB</h2>
+
+A The Movie Database é uma comunidade aberta feita para reunir diversos dados sobre filmes e séries gratuitamente desde 2008. Com isso, a plataforma consegue abrangir diversos campos da indústria do cinema com notas, títulos, sinopses, cartazes e pôsteres em alta resolução, fanarts, descrições, data de lançamento e vários tipos de dados que servem para aplicações comunitárias e de ajuda social, como o Vitto!
+
+<img src="https://i.imgur.com/3yahHHq.png"></img>
 
 <h2>O Sistema</h2>
 
