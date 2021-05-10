@@ -15,7 +15,7 @@
 	<h1 id="iniciandoBusca">Iniciando busca</h1>
 	<h1 id="tituloPesquisa"></h1>
 
-	<div id="home"><img src="estilo\home.png" onClick="location.reload()" width="50px" height="45px" style="position: absolute; left: 203vh; top: 2vh;padding-top: 0.2vh; padding-bottom: 0.2vh;padding-right: 1.5vh; background-color: #f8a119;"></div>
+	<div id="home"><img src="estilo\home.png" onClick="location.reload()" width="50px" height="45px" style="position: absolute; left: 76,5rem; top: 2vh;padding-top: 0.2vh; padding-bottom: 0.2vh;padding-right: 1.5vh; background-color: #f8a119;"></div>
 	<div id="fundoCard"></div>
 	<div class="tituloFinal">
 		<h1>.</h1>

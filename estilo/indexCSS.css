@@ -43,7 +43,7 @@ body {
 	background-color: black;
 	background-image: url("FundoFinalEscuro.png");
 	background-size: 850px;
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 
 #desenvolvimento {
@@ -111,6 +111,9 @@ body {
 }
 
 .nota {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
 	left: 150vh;
 	top: 65vh;
